@@ -1,0 +1,26 @@
+{
+  "name": "koa-and-generators",
+  "version": "0.0.1",
+  "description": "koa-api-dictionary application",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benoitvallon/koa-and-generators.git"
+  },
+  "author": "Benoit VALLON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benoitvallon/koa-and-generators/issues"
+  },
+  "engines": {
+    "node": ">= 0.11.14"
+  },
+  "homepage": "https://github.com/benoitvallon/koa-and-generators"
+}
