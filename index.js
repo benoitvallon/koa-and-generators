@@ -50,5 +50,9 @@ var handler = function *(next){
 };
 
 app.use(mount('/v1', APIv1.middleware()));
+
+// for tests purpose
+module.exports = app;
+
 if (!module.parent) app.listen(3000);
 console.log('Hello World is Running on http://localhost:3000/');
